@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/framelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+
+    <!-- <org.andengine.opengl.view.RenderSurfaceView -->
+    <!-- <android.opengl.GLSurfaceView -->
+
+    <org.andengine.opengl.view.RenderSurfaceView
+        android:id="@+id/rendersurfaceview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Main layout relative height was was wrap -->
+
+    <RelativeLayout
+        android:id="@+id/main_layout_relative"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingBottom="4dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="4dp">
+
+        <RelativeLayout
+            android:id="@+id/topbar_manipulate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <fragment
+                android:id="@+id/fragment_topbar_build_object"
+                android:name="com.niffy.IsometricWorld.fragments.FragmentBuild"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                tools:layout="@layout/button_build"></fragment>
+
+            <fragment
+                android:id="@+id/fragment_topbar_build_human"
+                android:name="com.niffy.IsometricWorld.fragments.FragmentHuman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/fragment_topbar_build_object"
+                tools:layout="@layout/button_human"></fragment>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/topbar_manipulate_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/topbar_manipulate"
+            android:layout_marginTop="20sp">
+
+            <fragment
+                android:id="@+id/fragment_topbar_network"
+                android:name="com.niffy.IsometricWorld.fragments.FragmentNetwork"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:layout="@layout/button_network"></fragment>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/bottombar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+
+            <LinearLayout
+                android:id="@+id/bottombar_slot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"></LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</FrameLayout>

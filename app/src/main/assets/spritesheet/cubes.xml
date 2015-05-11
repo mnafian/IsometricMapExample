@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<texture file="cubes.png" height="439" magfilter="linear" minfilter="linear" pixelformat="RGBA_8888"
+    premultiplyalpha="false" type="bitmap" version="1" width="230" wraps="clamp" wrapt="clamp">
+    <!-- Created with TexturePacker http://texturepacker.com -->
+    <!--  -->
+    <textureregion height="95" id="0" rotated="false" src="128x32x32.png" srcheight="95"
+        srcwidth="128" srcx="0" srcy="0" trimmed="false" width="128" x="100" y="83" />
+    <textureregion height="95" id="1" rotated="false" src="32x128x32.png" srcheight="95"
+        srcwidth="128" srcx="0" srcy="0" trimmed="false" width="128" x="2" y="180" />
+    <textureregion height="63" id="2" rotated="false" src="32x32x32.png" srcheight="63"
+        srcwidth="64" srcx="0" srcy="0" trimmed="false" width="64" x="2" y="2" />
+    <textureregion height="95" id="3" rotated="false" src="32x32x64.png" srcheight="95"
+        srcwidth="64" srcx="0" srcy="0" trimmed="false" width="64" x="132" y="180" />
+    <textureregion height="79" id="4" rotated="false" src="32x64x32.png" srcheight="79"
+        srcwidth="96" srcx="0" srcy="0" trimmed="false" width="96" x="2" y="83" />
+    <textureregion height="79" id="5" rotated="false" src="64x32x32.png" srcheight="79"
+        srcwidth="96" srcx="0" srcy="0" trimmed="false" width="96" x="68" y="2" />
+    <textureregion height="98" id="6" rotated="false" src="64x64x32.png" srcheight="98"
+        srcwidth="128" srcx="0" srcy="0" trimmed="false" width="128" x="2" y="277" />
+    <textureregion height="160" id="7" rotated="false" src="man-titled.png" srcheight="160"
+        srcwidth="93" srcx="0" srcy="0" trimmed="false" width="93" x="132" y="277" />
+</texture>
