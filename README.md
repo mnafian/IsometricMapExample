@@ -7,7 +7,7 @@ You can import this project to Android Studio in gradle version, this project co
 
 Bug :
 
-Networking, still fix for more reliable to rebuild project to gradle project in Android Studio.
+Networking, not working.
 
 Build and tested in Android Studio 1.2 OSX 10.10.3.
 
